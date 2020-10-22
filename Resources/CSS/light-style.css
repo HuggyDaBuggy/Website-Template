@@ -1,0 +1,73 @@
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #f2f6fc;
+  border-radius: 0.5em;
+  border: 0.05em solid #000000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c1d4f1;
+}
+body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background: #ffffff;
+  color: #000000;
+}
+header,
+footer {
+  display: flex;
+  align-content: space-around;
+}
+footer {
+  font-size: 60%;
+}
+.box-main {
+  border: 0.05em solid #000000;
+  border-radius: 0.5em;
+  margin: 1%;
+  align-content: center;
+  justify-content: space-around;
+  list-style-type: none;
+  background-color: #f2f6fc;
+}
+.box-sub {
+  border: 0.05em solid #000000;
+  border-radius: 0.5em;
+  width: 28%;
+  height: 28%;
+  margin: 1%;
+  padding: 1%;
+  align-content: center;
+  text-align: center;
+  display: inline-block;
+  background: #ffffff;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  cursor: pointer;
+  color: #0000ff;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+#dropdown-content {
+  z-index: 100;
+  width: 250%;
+  padding: 10%;
+  display: none;
+  position: absolute;
+  text-align: left;
+}
+.dropdown:hover #dropdown-content {
+  display: block;
+}

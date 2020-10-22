@@ -1,0 +1,73 @@
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+::-webkit-scrollbar-track {
+  background: #2c2f33;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #23272a;
+  border-radius: 0.5em;
+  border: 0.05em solid #000000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a4145;
+}
+body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background: #2c2f33;
+  color: #ffffff;
+}
+header,
+footer {
+  display: flex;
+  align-content: space-around;
+}
+footer {
+  font-size: 60%;
+}
+.box-main {
+  border: 0.05em solid #000000;
+  border-radius: 0.5em;
+  margin: 1%;
+  align-content: center;
+  justify-content: space-around;
+  list-style-type: none;
+  background-color: #23272a;
+}
+.box-sub {
+  border: 0.05em solid #000000;
+  border-radius: 0.5em;
+  width: 28%;
+  height: 28%;
+  margin: 1%;
+  padding: 1%;
+  align-content: center;
+  text-align: center;
+  display: inline-block;
+  background: #2c2f33;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  cursor: pointer;
+  color: #0000ff;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+#dropdown-content {
+  z-index: 100;
+  width: 100%;
+  padding: 10%;
+  display: none;
+  position: absolute;
+  text-align: left;
+}
+.dropdown:hover #dropdown-content {
+  display: block;
+}
